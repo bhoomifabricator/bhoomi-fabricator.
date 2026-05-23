@@ -27,15 +27,6 @@ const values = [
   },
 ]
 
-const team = [
-  {
-    name: 'Sanjay Vishwakarma',
-    role: 'Founder & Creative Director',
-    img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
-    desc: 'With over 12 years of experience in fabrication and exhibition design, Sanjay leads every project with passion and precision.',
-  },
-]
-
 export default function About() {
   useReveal()
 
@@ -101,7 +92,7 @@ export default function About() {
             <div className="relative">
               <div className="img-overlay aspect-[4/3] overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
+                  src="/work/1.jpeg"
                   alt="Bhoomi Fabricator workshop"
                   width={800}
                   height={600}
@@ -167,51 +158,6 @@ export default function About() {
                 </h3>
                 <p className="text-sm leading-relaxed" style={{ color: '#6A6A6A', fontFamily: 'var(--font-body)' }}>
                   {v.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team */}
-      <section className="py-24 px-6 lg:px-12" style={{ background: '#1A1A1A' }}>
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16 reveal">
-            <p className="section-label mb-4">Leadership</p>
-            <h2 className="section-title" style={{ color: '#F5F0E8' }}>
-              Meet the <span className="text-gold-shimmer">Mind</span> Behind It
-            </h2>
-          </div>
-          <div className="max-w-md mx-auto">
-            {team.map((m) => (
-              <div key={m.name} className="reveal text-center">
-                <div
-                  className="w-40 h-40 mx-auto mb-6 overflow-hidden"
-                  style={{ border: '2px solid rgba(201,168,76,0.4)' }}
-                >
-                  <Image
-                    src={m.img}
-                    alt={m.name}
-                    width={160}
-                    height={160}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3
-                  className="text-2xl font-bold mb-1"
-                  style={{ color: '#F5F0E8', fontFamily: 'var(--font-display)' }}
-                >
-                  {m.name}
-                </h3>
-                <p
-                  className="text-sm mb-4"
-                  style={{ color: '#C9A84C', fontFamily: 'var(--font-mono)', letterSpacing: '0.1em' }}
-                >
-                  {m.role}
-                </p>
-                <p className="leading-relaxed" style={{ color: '#8A8A8A', fontFamily: 'var(--font-body)' }}>
-                  {m.desc}
                 </p>
               </div>
             ))}

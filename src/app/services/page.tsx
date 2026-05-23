@@ -9,7 +9,7 @@ const services = [
     id: 'exhibition',
     title: 'Exhibition Stall Design',
     tagline: 'Make Your Brand Unmissable',
-    img: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80',
+    img: '/work/2.jpeg',
     desc: 'We design and execute exhibition stalls that stop visitors in their tracks. Every stall is a unique branded environment crafted to maximize engagement, traffic, and conversions at trade shows, expos, and events.',
     features: [
       'Custom stall design from 9 sqm to 500+ sqm',

@@ -37,25 +37,17 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="relative w-10 h-10">
-            <div
-              className="w-10 h-10 flex items-center justify-center"
-              style={{
-                background: 'linear-gradient(135deg, #C9A84C, #9B7A2C)',
-                clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)',
-              }}
-            >
-              <span style={{ fontFamily: 'var(--font-display)', color: '#1A1A1A', fontWeight: 900, fontSize: '1rem' }}>B</span>
-            </div>
+          <div className=" h-12 overflow-hidden ">
+            <img src="/logo.jpeg" alt="Bhoomi Fabricator logo" className="w-full h-full object-cover" />
           </div>
-          <div>
+          {/* <div>
             <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.1rem', color: '#F5F0E8', lineHeight: 1 }}>
               Bhoomi
             </div>
-            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.55rem', letterSpacing: '0.18em', color: '#C9A84C', textTransform: 'uppercase' }}>
+            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', letterSpacing: '0.18em', color: '#C9A84C', textTransform: 'uppercase' }}>
               Fabricator
             </div>
-          </div>
+          </div> */}
         </Link>
 
         {/* Desktop Nav */}

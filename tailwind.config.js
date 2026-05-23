@@ -14,15 +14,16 @@ module.exports = {
       },
       colors: {
         brand: {
-          gold: '#C9A84C',
-          'gold-light': '#E8C97A',
-          'gold-dark': '#9B7A2C',
-          charcoal: '#1A1A1A',
-          'charcoal-mid': '#2A2A2A',
-          'charcoal-light': '#3A3A3A',
-          cream: '#F5F0E8',
-          'cream-dark': '#E8E0CE',
-          steel: '#8A8A8A',
+          brown: '#8B6F47',
+          'brown-light': '#A0826D',
+          'brown-dark': '#6B5437',
+          black: '#1A1A1A',
+          'black-light': '#333333',
+          'black-lighter': '#666666',
+          white: '#FFFFFF',
+          'white-light': '#F5F5F5',
+          'white-lighter': '#E0E0E0',
+          gray: '#999999',
         }
       },
       animation: {
