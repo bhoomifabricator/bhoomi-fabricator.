@@ -38,7 +38,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className=" h-12 overflow-hidden ">
-            <img src="/logo.jpeg" alt="Bhoomi Fabricator logo" className="w-full h-full object-cover" />
+            <img src="/logo2.png" alt="Bhoomi Fabricator logo" className="w-full h-full object-cover" />
           </div>
           {/* <div>
             <div style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.1rem', color: '#F5F0E8', lineHeight: 1 }}>
@@ -77,7 +77,7 @@ export default function Navbar() {
             style={{ color: '#8A8A8A', fontFamily: 'var(--font-body)' }}
           >
             <Phone size={14} style={{ color: '#C9A84C' }} />
-            <span>+91 Contact Us</span>
+            <span>+91 84509 91235</span>
           </a>
           <Link href="/contact" className="btn-gold">
             <span>Get Quote</span>
